@@ -27,13 +27,16 @@ def execute_action(packet_info):
 		print("Action Executed at %r" %FORMATTED_TIME)
 
 x = 0
+#while x is less than 2, complete the if loop
 while x < 2:
+	#if x is even execute the following 
 	if x % 2 == 0:
 		sniff(prn = execute_action, filter="arp")
 		thirdColumn = "Started Activity"
 		GoogleSheets.add_row(FIRST_COLUMN, SECOND_COLUMN, thirdColumn)
 		print("Started Activity")
 		x += 1	
+	#if x is not even execute the following
 	else:
 		sniff(prn = execute_action, filter="arp", stop_filter=device_found)
 		thirdColumn = "Ended Activity"
