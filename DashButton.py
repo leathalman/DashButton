@@ -10,7 +10,7 @@ import AppNotification
 import AppleScripts
 
 #Static var for the MAC Address of Dash Button beacuse I'm lazy
-DEVICE_MAC_ADDRESS = '78:e1:03:5b:46:4c'
+DEVICE_MAC_ADDRESS = 'PUT MAC ADDRESS OF DASH BUTTON HERE'
 TIME = datetime.datetime.now()
 FORMATTED_TIME = TIME.strftime("%I:%M %p, %m/%d/%y")
 FIRST_COLUMN = TIME.strftime("%B %d, %Y")
