@@ -17,3 +17,7 @@ requests.post("https://maker.ifttt.com/trigger/button_pressed/with/key/PLACEHOLD
 ```
 
 ```button_pressed``` refers to the event name in IFTTT and ```PLACEHOLDER``` is the secret key created with [webooks](https://ifttt.com/services/maker_webhooks/settings) in IFTTT.
+
+
+# Functionality
+With the three default modules to DashButton.py, the script will send a notification to your phone, log the start and end times for an activity, and open a new tab in Safari on each button press. This can be configured to your preference easily.
