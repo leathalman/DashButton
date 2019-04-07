@@ -10,11 +10,12 @@ def add_row(first, second, third):
 	report["value1"] = first
 	report["value2"] = second
 	report["value3"] = third
-	#will call IFTTT event for google sheets, with user input for the 3 values (first, second, and third columns below)
-	requests.post("https://maker.ifttt.com/trigger/button_pressed/with/key/PLACEHOLDER", data=report) 
+	#will call IFTTT event for google sheets with 3 values
+	requests.post("https://maker.ifttt.com/trigger/button_pressed4/with/key/ciUl8SkptuE51Su7absZtIwxvjGsOCiSkMYxNUd-Bot", data=report) 
+	print("GoogleSheets Executed")
 
-firstColumn = formattedTime
-secondColumn = startTime
-thirdColumn = "Default Message"
+#firstColumn = formattedTime
+#secondColumn = startTime
+#thirdColumn = "Message"
 
 #add_row(firstColumn, secondColumn, thirdColumn)
