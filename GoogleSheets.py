@@ -11,7 +11,7 @@ def add_row(first, second, third):
 	report["value2"] = second
 	report["value3"] = third
 	#will call IFTTT event for google sheets with 3 values
-	requests.post("https://maker.ifttt.com/trigger/button_pressed4/with/key/ciUl8SkptuE51Su7absZtIwxvjGsOCiSkMYxNUd-Bot", data=report) 
+	requests.post("https://maker.ifttt.com/trigger/button_pressed/with/key/PLACEHOLDER", data=report) 
 	print("GoogleSheets Executed")
 
 #firstColumn = formattedTime
