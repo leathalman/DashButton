@@ -15,4 +15,4 @@ def execute_applescript(packet_info, script=SCRIPT):
 	p.communicate(script)
 	print("AppleScript Executed")
 
-#execute_applescript(WAKEUP_SCRIPT)
+#execute_applescript(SCRIPT)
