@@ -39,7 +39,7 @@ while x < 2:
 		x += 1	
 	elif x % 2 == 1:
 		sniff(prn=execute_action, filter="arp", stop_filter=device_found)
-		TIME = datetime.datetime.now()
+		CURRENT_TIME = datetime.datetime.now()
 		FORMATTED_TIME = CURRENT_TIME.strftime("%I:%M %p, %m/%d/%y")
 		FIRST_COLUMN = CURRENT_TIME.strftime("%B %d, %Y")
 		SECOND_COLUMN = CURRENT_TIME.strftime("%I:%M %p")
