@@ -44,7 +44,7 @@ while x < 2:
 		FIRST_COLUMN = CURRENT_TIME.strftime("%B %d, %Y")
 		SECOND_COLUMN = CURRENT_TIME.strftime("%I:%M %p")
 		#subtract the OLD_TIME from the first button press from the CURRENT_TIME of the second button press
-		changeInTime = TIME - OLD_TIME
+		changeInTime = CURRENT_TIME - OLD_TIME
 		#used to get the days, minutes, and second between the timedelta of the first and second button presses
 		days = changeInTime.days
 		hours, remainder = divmod(changeInTime.seconds, 3600)
