@@ -1,8 +1,8 @@
-# DashButton
+## DashButton
 Use Python to enable actions with an Amazon Dash button.
 
 
-# Setup
+## Setup
 DashButton.py serves as the main file for interacting with the Dash Button.
 You need to **replace** the below text with the MAC address of your Dash Button.
 
@@ -19,7 +19,7 @@ requests.post("https://maker.ifttt.com/trigger/button_pressed/with/key/PLACEHOLD
 ```button_pressed``` refers to the event name in IFTTT and ```PLACEHOLDER``` is the secret key created with [webooks](https://ifttt.com/services/maker_webhooks/settings) in IFTTT.
 
 
-# Functionality
+## Functionality
 With the three default modules to DashButton.py, the script will send a notification to your phone, log the start and end times for an activity, and open a new tab in Safari on each button press. This can be configured to your preference easily.
 
 Contact me if you have any questions, I will be adding functionality as I go.
